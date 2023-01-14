@@ -1,0 +1,10 @@
+.
+├── k8s-ecdr-config.yaml
+├── k8s-ecdr.yaml
+├── README.md
+└── scripts
+    ├── failover.sh
+    └── test-recovery.sh
+
+mkdir -p scripts
+touch k8s-ecdr-config.yaml k8s-ecdr.yaml README.md scripts/failover.sh scripts/test-recovery.sh
